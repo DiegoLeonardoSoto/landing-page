@@ -105,9 +105,9 @@ header,
   background-color: var(--accent-color);
   color: var(--secondary-color);
   border: none;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 2rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
 }
@@ -173,4 +173,44 @@ header,
   font-weight: bold;
   font-size: 1rem;
   text-align: right;
+  padding-right: 1rem;
+}
+
+.callToActionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.callToActionSection_container {
+  width: 50rem;
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  display: flex;
+  padding: 2rem 5rem;
+  border-radius: 0.5rem;
+  margin: 4rem 0;
+  justify-content: space-between;
+}
+
+.callToActionSection_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callToActionSection_button > button {
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 2rem;
+  text-align: center;
 }
