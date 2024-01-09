@@ -3,6 +3,7 @@
 :root {
   --primary-color: #1f2937;
   --secondary-color: #f9faf8;
+  --gray: #e5e7eb;
   --accent-color: #3882f6;
 }
 
@@ -149,4 +150,27 @@ header,
   width: 10rem;
   border: 3px solid var(--accent-color);
   border-radius: 1rem;
+}
+
+.quoteSection {
+  background-color: var(--gray);
+  color: var(--primary-color);
+  font-weight: lighter;
+  font-size: 2.25rem;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.quoteSection_container {
+  width: 50rem;
+}
+
+.quoteSection_reference {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: right;
 }
